@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: orange;
+    color: black;
+}
+
+/* Logo text */
+.logo-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 24px;
+    color: orange;
+}
+
+/* Header */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.header-img {
+    width: 400px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+header p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+/* Slideshow */
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides img {
+    width: 100%;
+    display: none;
+}
+
+.slides img.active {
+    display: block;
+}
+
+/* About Section */
+section {
+    padding: 50px;
+    background: rgba(0,0,0,0.7);
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: orange;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
