@@ -4,6 +4,8 @@ A modern, fully responsive landing page for **FUTURE College**, designed to show
 Built using **HTML, CSS, and JavaScript**.
 
 ---
+# live project
+https://riyanesarkar07.github.io/SCT_WD_1/
 
 ## 📌 Features
 - **Fixed Navigation Bar**  
@@ -47,12 +49,6 @@ Built using **HTML, CSS, and JavaScript**.
 ┃ ┣ lib.jpg
 ┃ ┣ comp.jpg
 ┃ ┗ clg.jpeg
-
----
-
-## 🚀 Live Demo
-🔗 **GitHub Pages Link:** [https://RiyaNesarkar07.github.io/SCT_WD_1/](https://RiyaNesarkar07.github.io/SCT_WD_1/)  
-🔗 **GitHub Repo:** [https://github.com/RiyaNesarkar07/SCT_WD_1](https://github.com/RiyaNesarkar07/SCT_WD_1)
 
 ---
 
